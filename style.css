@@ -72,3 +72,29 @@ button {
 .hero img {
   width: 400px;
 }
+
+.selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+  gap: 20px;
+}
+
+.info {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1F2937;
+  width: 100%;
+  text-align: center;
+}
+
+.selection img {
+  width: 200px;
+  border: 3px solid #3882F6;
+  border-radius: 20px;
+}
+
+.select {
+  width: 200px;
+}
