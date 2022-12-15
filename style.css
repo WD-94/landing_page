@@ -68,7 +68,6 @@ button {
   font-size: 15px;
 }
 
-/* distribute space 50/50 in flexbox then remove width here */
 .hero img {
   width: 400px;
 }
@@ -97,4 +96,41 @@ button {
 
 .select {
   width: 200px;
+}
+
+.quote {
+  display: flex;
+  background-color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.quote div {
+  width: 860px;
+}
+
+.quote p:nth-of-type(2) {
+  text-align: right;
+}
+
+.action {
+  display: flex;
+  background-color: #3882F6;
+  margin: 50px 20%;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 120px;
+  border-radius: 10px;
+
+}
+
+.action button {
+  border: 1px solid white;
+}
+
+.action-right div:nth-of-type(1) {
+  font-weight: 700;
+  font-size: 20px;
 }
