@@ -6,3 +6,7 @@ Images:
   - freestocks          (https://unsplash.com/photos/Fx5rrxSaUtI)
   - Priscilla Du Preez  (https://unsplash.com/photos/LsfqHXdAvfk)
   - Elijah M. Henderson (https://unsplash.com/photos/xgT3iQDIijU)
+
+Websites:
+  - https://unsplash.com
+  - https://www.iloveimg.com
