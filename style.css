@@ -2,14 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 header {
   background-color: #1F2937;
+  padding-bottom: 80px;
 }
 
 nav {
-  margin: 0 25%;
+  margin: 0 20%;
+  margin-bottom: 80px;
   padding-top: 15px;
   display: flex;
   gap: 15px;
@@ -27,4 +30,45 @@ nav a {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  margin: 0 20%;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: auto;
+  align-items: flex-start;
+}
+
+.hero-text div:nth-of-type(1) {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.hero-text div:nth-of-type(2) {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 10px;
+  color: #F9FAF8;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* distribute space 50/50 in flexbox then remove width here */
+.hero img {
+  width: 400px;
 }
